@@ -34,7 +34,17 @@ class DetallesComidaController : UIViewController {
             lblSaludable.text = comida!.saludable
             lblRapida.text = comida!.rapida
 
-            
+            let url = URL(string: "http://127.0.0.1:8000/storage/fotos/" + comida!.imagen)!
+                    var solicitud = URLRequest(url: url)
+                    
+                    solicitud.httpMethod = "GET"
+                    let task = URLSession.shared.dataTask(with: solicitud) {
+                        data, response, error in
+                        if let data = data {
+                            self.imgComida.image = UIImage(data: data)
+                    }
+                }
+            task.resume()
         }else{
             self.title = "Detalles de Comida"
         }
