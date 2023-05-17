@@ -30,6 +30,18 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         celda.lblCosto.text = comidas[indexPath.row].costo
         celda.lblTipo.text = comidas[indexPath.row].tipo
         
+        let url = URL(string: "http://127.0.0.1:8000/storage/fotos/" + comidas[indexPath.row].imagen)!
+                var solicitud = URLRequest(url: url)
+                
+                solicitud.httpMethod = "GET"
+                let task = URLSession.shared.dataTask(with: solicitud) {
+                    data, response, error in
+                    if let data = data {
+                        celda.imgComida.image = UIImage(data: data)
+                    }
+                }
+                task.resume()
+        
         return celda
     }
     @IBOutlet weak var tvComida: UITableView!
