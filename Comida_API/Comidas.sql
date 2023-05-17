@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: localhost:8889
--- Tiempo de generación: 17-05-2023 a las 22:44:44
+-- Tiempo de generación: 17-05-2023 a las 23:29:26
 -- Versión del servidor: 5.7.39
 -- Versión de PHP: 7.4.33
 
@@ -45,7 +45,7 @@ CREATE TABLE `Comidas` (
 --
 
 INSERT INTO `Comidas` (`id`, `nombre`, `tipo`, `costo`, `pais`, `saludable`, `rapida`, `imagen`, `created_at`, `updated_at`) VALUES
-(1, 'Pizza', 'Carne triple', '$355', 'Italia', 'No', 'Si', 'SW8SQFRCNgmzsIC2NoZeM2KdOaDtzbOeGTpw3P3D.jpg', '2023-05-17 20:42:38', '2023-05-18 03:55:02'),
+(1, 'Pizza', 'Carne triple', '$355', 'Italia', 'No', 'Si', 'NJPR49UR6mGh2xl49JPOJzoNXMJpKXwpn8foMb1f.jpg', '2023-05-17 20:42:38', '2023-05-18 06:26:03'),
 (2, 'Hamburguesa', 'Triple bbq', '$140', 'Alemania', 'No', 'Si', 'zZ5mDE3fQ4eBIHaTEbEqCM0T4VpKZP2jqzEepZaU.jpg', '2023-05-17 20:42:38', '2023-05-18 03:55:13'),
 (3, 'Spaghetti', 'Rojo', '$180', 'Italia', 'No', 'No', 'QJQIx5mOwzHo0AkaQTFkjcUy8yBWlqDGoq9wNiUA.jpg', '2023-05-17 20:42:38', '2023-05-18 03:55:22'),
 (4, 'Tacos', 'bistec', '$20', 'México', 'No', 'No', '2YcwzZ4nxKNc4mr5UaT5YihkyvTI4nWvpGVVnk1u.jpg', '2023-05-17 20:42:38', '2023-05-18 03:56:04'),
@@ -74,7 +74,7 @@ ALTER TABLE `Comidas`
 -- AUTO_INCREMENT de la tabla `Comidas`
 --
 ALTER TABLE `Comidas`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
