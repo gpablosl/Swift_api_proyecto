@@ -16,6 +16,8 @@ class DetallesComidaController : UIViewController {
     @IBOutlet weak var lblPais: UILabel!
     @IBOutlet weak var lblSaludable: UILabel!
     @IBOutlet weak var lblRapida: UILabel!
+    @IBOutlet weak var lblSabor: UILabel!
+    @IBOutlet weak var lblFresco: UILabel!
     @IBOutlet weak var imgComida: UIImageView!
     
     var comida : Comida?
@@ -33,7 +35,8 @@ class DetallesComidaController : UIViewController {
             lblPais.text = comida!.pais
             lblSaludable.text = comida!.saludable
             lblRapida.text = comida!.rapida
-
+            lblSabor.text = comida!.sabor
+            lblFresco.text = comida!.fresco
             let url = URL(string: "http://127.0.0.1:8000/storage/fotos/" + comida!.imagen)!
                     var solicitud = URLRequest(url: url)
                     

@@ -63,31 +63,31 @@
                             <form>
                                 <div class="row mb-3">
                                     <label for="" class="col-sm-2 col-form-label">Nombre</label>
-                                    <div class="col-sm-10">
+                                    <div class="col-sm-5">
                                         <input name="nombre" type="text" class="form-control" >
                                     </div>
                                 </div>
                                 <div class="row mb-3">
                                     <label class="col-sm-2 col-form-label">Tipo</label>
-                                    <div class="col-sm-3">
+                                    <div class="col-sm-2">
                                         <input name="tipo" type="text" class="form-control">
                                     </div>
                                 </div>
                                 <div class="row mb-3">
                                     <label class="col-sm-2 col-form-label">Costo</label>
-                                    <div class="col-sm-1">
+                                    <div class="col-sm-2">
                                         <input name="costo" type="text" class="form-control">
                                     </div>
                                 </div>
                                 <div class="row mb-3">
                                     <label class="col-sm-2 col-form-label">Pais</label>
-                                    <div class="col-sm-3">
+                                    <div class="col-sm-2">
                                         <input name="pais" type="text" class="form-control">
                                     </div>
                                 </div>
                                 <div class="row mb-3">
                                     <label class="col-sm-2 col-form-label">Saludable</label>
-                                    <div class="col-sm-10">
+                                    <div class="col-sm-2">
                                         <input name="saludable" type="text" class="form-control">
                                     </div>
                                 </div>
@@ -97,8 +97,20 @@
                                         <input name="rapida" type="text" class="form-control">
                                     </div>
                                 </div>
+                                <div class="row mb-3">
+                                    <label class="col-sm-2 col-form-label">Sabor</label>
+                                    <div class="col-sm-2">
+                                        <input name="sabor" type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <label class="col-sm-2 col-form-label">Fresco</label>
+                                    <div class="col-sm-2">
+                                        <input name="fresco" type="text" class="form-control">
+                                    </div>
+                                </div>
                                 <div class="mb-3">
-                                    <label class="form-label">Imagen Rostro</label>
+                                    <label class="form-label">Imagen</label>
                                     <input name="imagen" class="form-control form-control-sm bg-dark" type="file">
                                 </div>
                                 <button type="submit" class="btn btn-primary" type="submit">Añadir</button>

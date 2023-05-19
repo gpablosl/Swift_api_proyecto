@@ -29,6 +29,8 @@ class DetallesController extends Controller
         $nuevaComida->pais = $request->input('pais');
         $nuevaComida->saludable = $request->input('saludable');
         $nuevaComida->rapida = $request->input('rapida');
+        $nuevaComida->sabor = $request->input('sabor');
+        $nuevaComida->fresco = $request->input('fresco');
 
         $imagen = $request->file('imagen');
             if ($imagen) {
@@ -56,6 +58,8 @@ class DetallesController extends Controller
         $comidas->pais = $request->input('pais');
         $comidas->saludable = $request->input('saludable');
         $comidas->rapida = $request->input('rapida');
+        $comidas->sabor = $request->input('sabor');
+        $comidas->fresco = $request->input('fresco');
 
         $imagen = $request->file('imagen');
             if ($imagen) {

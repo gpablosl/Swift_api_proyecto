@@ -93,8 +93,20 @@
                                         <input value="{{$comidas->rapida}}" name="rapida" type="text" class="form-control">
                                     </div>
                                 </div>
+                                <div class="row mb-3">
+                                    <label class="col-sm-2 col-form-label">Sabor</label>
+                                    <div class="col-sm-2">
+                                        <input value="{{$comidas->sabor}}" name="sabor" type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <label class="col-sm-2 col-form-label">Fresco</label>
+                                    <div class="col-sm-2">
+                                        <input value="{{$comidas->fresco}}" name="fresco" type="text" class="form-control">
+                                    </div>
+                                </div>
                                 <div class="mb-3">
-                                    <label for="formFileSm" class="form-label">Imagen Rostro</label>
+                                    <label for="formFileSm" class="form-label">Imagen</label>
                                     <input class="form-control form-control-sm bg-dark" name="imagen" type="file">
                                 </div>
 

@@ -72,6 +72,8 @@
                                     <th scope="col">Pais</th>
                                     <th scope="col">Saludable</th>
                                     <th scope="col">Rapida</th>
+                                    <th scope="col">Sabor</th>
+                                    <th scope="col">¿Fresco?</th>
                                     <th scope="col">Imagen</th>
                                     <th scope="col">Editar</th>
                                     <th scope="col">Eliminar</th>
@@ -88,6 +90,8 @@
                                     <td>{{$detalle->pais}}</td>
                                     <td>{{$detalle->saludable}}</td>
                                     <td>{{$detalle->rapida}}</td>
+                                    <td>{{$detalle->sabor}}</td>
+                                    <td>{{$detalle->fresco}}</td>
                                     <td><img style="width: 100px; height: 10" src="/storage/fotos/{{$detalle->imagen}}" class="card-img-top" alt=""></td>
                                     <td><a class="btn btn-sm btn-primary" href="{{route('comidas.edit', $detalle->id)}}">Editar</a></td>
                                     <td>                                    
