@@ -17,13 +17,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ComidaClub" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KFl-jp-7PR">
-                                <rect key="frame" x="131.66666666666666" y="418" width="126.99999999999997" height="21"/>
+                                <rect key="frame" x="131.66666666666666" y="289.33333333333331" width="126.99999999999997" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" systemColor="systemYellowColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(cargando)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m4V-Kd-aHD">
-                                <rect key="frame" x="157" y="462.33333333333331" width="76" height="18"/>
+                                <rect key="frame" x="157" y="333.66666666666669" width="76" height="18"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -34,9 +34,9 @@
                         <constraints>
                             <constraint firstItem="KFl-jp-7PR" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="0.0248815" id="O7h-ka-pmg"/>
                             <constraint firstItem="m4V-Kd-aHD" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.194872" id="b7r-rq-eUt"/>
-                            <constraint firstItem="KFl-jp-7PR" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="dZx-VZ-FOv"/>
+                            <constraint firstItem="KFl-jp-7PR" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" multiplier="0.7" id="dZx-VZ-FOv"/>
                             <constraint firstItem="KFl-jp-7PR" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.325641" id="jBA-0H-p3h"/>
-                            <constraint firstItem="m4V-Kd-aHD" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" multiplier="1.1" id="kjX-JQ-Bg6"/>
+                            <constraint firstItem="m4V-Kd-aHD" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" multiplier="0.8" id="kjX-JQ-Bg6"/>
                             <constraint firstItem="m4V-Kd-aHD" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="0.021327" id="nsc-jI-jJ0"/>
                             <constraint firstItem="m4V-Kd-aHD" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="tBm-XC-1yK"/>
                             <constraint firstItem="KFl-jp-7PR" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="wmB-U4-b1F"/>
