@@ -44,7 +44,7 @@
         <!-- Content Start -->
         <div class="content">
             <!-- Navbar Start -->
-            <nav class="navbar navbar-expand bg-secondary navbar-dark sticky-top px-4 py-0">
+            <nav class="navbar navbar-expand bg-secondary navbar-dark sticky-top px-2 py-0">
                 
                 <a href="/" class="nav-item nav-link active"><i class="fa fa-tachometer-alt me-2"></i>Listado</a>
                     <a href="/añadir" class="nav-item nav-link"><i class="fa fa-table me-2"></i>Añadir</a>
@@ -55,7 +55,7 @@
             <!-- Navbar End -->
 
             <!-- Recent Sales Start -->
-            <div class="container-fluid pt-4 px-4">
+            <div class="container-fluid pt-4 px-0">
                 <div class="bg-secondary text-center rounded p-4">
                     <div class="d-flex align-items-center justify-content-between mb-4">
                         <h6 class="mb-0">x</h6>
