@@ -124,7 +124,7 @@
             <div class="container-fluid pt-4 px-4">
                 <div class="bg-secondary rounded-top p-4">
                     <div>
-                        Integrantes: <a href="">Sdeyne Anaya, José Daniel Becerra, Germán Pablos</a>
+                        Integrantes: <a href="">Sdeyne Anaya, José Daniel Becerra, Jorge Abrecht, Germán Pablos</a>
                     </div>
                 </div>
             </div>
